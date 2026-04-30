@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Analytics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <aside class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li>Visão Geral</li>
+      <li>Relatórios</li>
+      <li>Usuários</li>
+    </ul>
+  </aside>
+
+  <main class="main">
+    <h1>Analytics</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Usuários</h3>
+        <p id="usuarios">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Receita</h3>
+        <p id="receita">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Conversão</h3>
+        <p id="conversao">0%</p>
+      </div>
+    </div>
+
+    <canvas id="grafico"></canvas>
+
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
