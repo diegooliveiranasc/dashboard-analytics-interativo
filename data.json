@@ -1,0 +1,7 @@
+{
+  "usuarios": 1240,
+  "receita": 53200,
+  "conversao": 12,
+  "meses": ["Jan", "Fev", "Mar", "Abr", "Mai"],
+  "valores": [10000, 15000, 20000, 18000, 25000]
+}
